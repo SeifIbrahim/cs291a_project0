@@ -1,0 +1,28 @@
+h1 {
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+img {
+  max-width: 1000px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+}
+@media (max-width: 1000px) {
+  img {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+  }
+}
+td {
+  border: 1px solid blue;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
